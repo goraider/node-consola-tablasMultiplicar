@@ -1,0 +1,11 @@
+    console.log(salida);
+    fs.writeFileSync(`tabla-${ base }.txt`, salida);
+    console.log(`tabla-${ base }.txt creado`);
+
+
+    //GRABAR ARCHIVOS NODE
+    // fs.writeFile( `tabla-${ base }.txt`, salida, (err) => {
+    //     if( err ) throw err;
+
+    //     console.log(`tabla-${ base }.txt creado`);
+    // });
